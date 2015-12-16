@@ -1,0 +1,7 @@
+Notes from unraveling Angular
+
+Create or modify a file in your working folder:
+learnAngular/UnravelNg
+
+Browse a certain page:
+http://localhost:5100/<PAGENAME>.html
