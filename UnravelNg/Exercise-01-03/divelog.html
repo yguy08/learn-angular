@@ -8,7 +8,9 @@
   <div class="container-fluid">
     <h1>My Latest Dives (AngularJS)</h1>
     <div class="row"
-      ng-init="dives=[
+      ng-init="dives=
+
+      [
         {
           site: 'Washington Monument',
           location: 'Washington, DC',
@@ -26,7 +28,9 @@
           location: 'Budapest, Hungary',
           depth: 98,
           time: 62
-        }]">
+        }
+      ]">
+
         <div class="col-sm-4"
         ng-repeat="dive in dives">
         <h3>{{dive.site}}</h3>
